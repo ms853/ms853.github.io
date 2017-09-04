@@ -1,0 +1,10 @@
+<?php 
+/*PHP code for the form handling*/
+
+$name = $_POST['name'];
+$email = $_POST['email'];
+$comment = $_POST['comment'];
+$to = "msakyiama@outlook.com";
+$subject = "New Message";
+
+?>
