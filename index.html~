@@ -34,7 +34,9 @@
     </div>
   </div>
 </nav>
-<div class="container-fluid bg-1 text-center">
+<div class="container-fluid bg-3 text-center bgimg">
+<!--<img class="bgimg" src="pics/tokyo.jpg" alt="tokyo city">-->
+
 <h3>Who Am I?</h3>
 <img src="pics/me.jpg" class="img-circle img-size" alt="Big Mike">
 <h3>A Passionate Computer Science Student & Thinker</h3>

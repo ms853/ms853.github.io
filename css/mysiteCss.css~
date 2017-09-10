@@ -1,6 +1,6 @@
 
 .bg-1 {
-       background-color: grey; /* Green */
+       background-color: grey; 
         color: #ffffff;
     }
     
@@ -19,6 +19,17 @@
     padding-bottom: 70px;
 }
 
+/*CSS for my background Image*/
+.bgimg {
+    background-image: url('../pics/bgImage.jpg');
+    min-width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.titletxt{
+color: #ffffff;
+}
 
 /*This is the css for the navigation bar*/
 .navbar {
@@ -49,8 +60,8 @@ body {
 }
 
 .img-size{
-	height: 300px;
-	width: 250px;
+	height: 250px;
+	width: 200px;
 }
 form{
 color: #555555;
