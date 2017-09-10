@@ -19,6 +19,7 @@
     padding-bottom: 70px;
 }
 
+
 /*This is the css for the navigation bar*/
 .navbar {
     padding-top: 15px;
@@ -30,9 +31,9 @@
     letter-spacing: 5px;
 }
 
-
 .navbar-nav li a:hover {
-    color: #1abc9c !important;
+   /* color: #1abc9c !important; */
+   color: white;
 }
 
 /*Css for the footer*/
@@ -50,4 +51,7 @@ body {
 .img-size{
 	height: 300px;
 	width: 250px;
+}
+form{
+color: #555555;
 }
