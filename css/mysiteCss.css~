@@ -21,14 +21,15 @@
 
 /*CSS for my background Image*/
 .bgimg {
-    background-image: url('../pics/bgImage.jpg');
+    background-image: url('../pics/tokyo.jpg');
     min-width: 100%;
     background-position: center;
     background-size: cover;
 }
 
 .titletxt{
-color: #ffffff;
+	font: 12px "Mate SC", sans-serif;
+	color: #ffffff;
 }
 
 /*This is the css for the navigation bar*/
@@ -54,15 +55,17 @@ color: #ffffff;
 }
 /*css for the font for the body!*/
 body {
-    font: 20px "Mate SC", sans-serif;
+	 font-family: sans-serif;
+	 font-size: 15px;
     line-height: 1.8;
     color: #f5f6f7;
 }
 
 .img-size{
-	height: 250px;
-	width: 200px;
+	height: 450px;
+	width: 300px;
 }
-form{
-color: #555555;
+h5{
+font-family: 'Audiowide';
+font-size: 22px;
 }
