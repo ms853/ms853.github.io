@@ -12,8 +12,13 @@ $message = $_POST['message'];
 $to = "msakyiama51@gmail.com";
 $subject = "New Message";
 
-mail($to, $subject, $message, "From: " . $name);
-echo "Thank you for your message! I will get back to you!"
+if(mail($to, $subject, $message, "From: " . $name)){
+	echo "Thank you for your message! Message has been sent!"
+
+}else {
+	echo "Error occurred while sending the message."
+}	
+
 ?>
 </body>
 </html>
