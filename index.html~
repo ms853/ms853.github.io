@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>My Homepage</title>
+  <title>Michael Lehmann</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- BootStrap and JQuery link -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <!-- jQuery-->
+  <script src="https://code.jquery.com/jquery-3.2.1.js"
+			  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+			  crossorigin="anonymous">
+   </script> 
+   
+   <!-- jQuery fancybox plugin-->
+   <script src="js/jquery.fancybox.min.js"></script>
+   
+   <!-- fancybox CSS! -->
+	<link rel="stylesheet" href="js/jquery.fancybox.min.css" />
+	
   <!-- Google fonts api -->
   <link href='https://fonts.googleapis.com/css?family=Mate SC' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
@@ -16,6 +29,16 @@
   
   <!-- My Stylesheet -->
   <link rel="stylesheet" type="text/css" href="css/mysiteCss.css" >
+  
+  <script type="text/javascript">
+  /*This inhibits any conflicts caused by the fancybox plugin when loading the jQuery
+  (function ($) {
+  	$(document).ready(function () {
+  		$(.l)
+  	})
+  })(jQuery)
+  */
+  </script>
 </head>
 <body>
 <nav class="navbar navbar-inverse bg-inverse">
@@ -26,7 +49,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#"><u><i>MSL</i></u></a>
+      <a class="navbar-brand" href="https://ms853.github.io"><i>MSL</i><span class="glyphicon glyphicon-home"></span></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -40,21 +63,22 @@
   </div>
 </nav>
 <div class="container-fluid bg-3 text-center bgimg titletxt">
-<div class="hero-text">
 <h3>Who Am I?</h3>
 <h1>Michael Lehmann</h1>
 <h3>A Passionate Computer Science Student & Thinker</h3>
 </div>
-</div>
+
+<!-- About Me-->
 <div class="container-fluid bg-2">
   <h3 id="aboutme"><u>About Me</u></h3>
   <p>My name is Michael S. Lehmann, and I am currently in my third year studying BSc Computing with Management at the University of Leicester.
-  The reason why I chose to do a joint honours degree 'with Management', is that I wanted to study how organisations operate. 
+  The reason why I chose to do a joint honours degree 'with Management', is that I want to learn about how organisations operate and how to successfully manage an organisation. 
   Furthermore, I was intrigued by nature of the course being a social science, meaning that Management studies applies scientific studies to organisational behaviour and the underlying factors that contribute to its success.
-  In simple terms, saw this degree as an opportunity to study to different sciences - one that deals with closed systems and one that deals with open systems.
+  In simple terms, I saw this degree as an opportunity to study to different sciences - one that deals with closed systems and one that deals with open systems.
   </p>
 </div>
 
+<!--My Beliefs-->
 <div class="container-fluid bg-3">
   <h3 id="beliefs"><u>My Beliefs</u></h3>
   <p>I am a Christian, and as a Christian, I adhere to the teachings of Jesus Christ and his word (The Holy Bible). 
@@ -84,6 +108,8 @@
 	    <li>Ch4 vrs13:<q>I can do all things through Christ which strengthens me.</q></li>
 	</ul>
 </div>
+
+<!-- My Interests-->
 <div class="container-fluid bg-1">
 	<h3 id="interests"><u>My Interests</u></h3>
 	<p>I have a keen interest in sport...</p>
@@ -92,20 +118,24 @@
     <div class="col-sm-4">
     <h4>Enactus Society</h4>
       <p>Part of the Web Development team. 
-      My role mainly consisted of maintaining/updating developing the enactus website.</p>      
-      <img class="img-size thumbnail" src="pics/Enactus.jpg" alt="Enactus">
+      My role mainly consisted of maintaining/updating developing the Enactus website.</p>
+      <a href="pics/Enactus.jpg" data-fancybox="images"> 
+      <img class="img-size thumbnail" src="pics/Enactus.jpg" alt="Enactus"></a>     
     </div>
     <div class="col-sm-4">
         <h4>Course Representative</h4>
       <p>I became a course representative during my first year.</p>
-      <img src="birds2.jpg" alt="Image">
+      <a href="pics/CourseRepsLogo.jpg" data-fancybox="images"> 
+      <img class="img-size thumbnail" src="pics/CourseRepsLogo.jpg" alt="Course Rep"></a>     
     </div>
     <div class="col-sm-4">
       <h4>Radical Youth Society</h4>
-      <img src="birds3.jpg" alt="Image">
+      <a href="pics/ry2.jpg" data-fancybox="images"> 
+      <img class="img-size thumbnail" src="pics/ry2.jpg" alt="Radical Youth Society"></a>
     </div>
 </div>
 </div>
+
 <!-- My Skills -->
 <div class="container-fluid bg-3">
 <h3 id="skills"><u>My Skills</u></h3>
@@ -250,7 +280,7 @@ The progress bar is an indication of the level of competency and experience I ha
   </div>
   </div>
 <footer class="container-fluid bg-4 text-center">
-<p>This is my website. I made it using bootstrap. :)</p>
+<p>My awesome website. I made it using bootstrap. :)</p>
 <p>
 <a href="http://jigsaw.w3.org/css-validator/check/referer">
     <img style="border:0;width:88px;height:31px"
