@@ -110,26 +110,33 @@
 </div>
 
 <!-- My Interests-->
-<div class="container-fluid bg-1">
+<div class="container-fluid bg-2">
 	<h3 id="interests"><u>My Interests</u></h3>
 	<p>I have a keen interest in sport...</p>
-      <h3>Societies</h3>
+      <h4><u>Societies</u></h4>
       <div class="row">
     <div class="col-sm-4">
-    <h4>Enactus Society</h4>
-      <p>Part of the Web Development team. 
-      My role mainly consisted of maintaining/updating developing the Enactus website.</p>
+    <h4><u>Enactus Society</u></h4>
+      <p>During my second year, I applied to join Enactus Leicester. Enactus Leicester is a social enterprise company who develop and launch social sustainability projects.
+      In simple terms, Enactus Leicester consists of talented and ambitious students, who are determined to fight social inequality by running projects which benefit communities on a global scale.   
+      My role mainly consisted of maintaining/updating developing the Enactus website which is crucial for the business's marketing and public relations.
+      </p>
+      <p>Below is the link to the Enactus website.</p>
+      <a href="http://www.enactusleicester.co.uk/"><b>Enactus Leicester</b></a>
       <a href="pics/Enactus.jpg" data-fancybox="images"> 
       <img class="img-size thumbnail" src="pics/Enactus.jpg" alt="Enactus"></a>     
     </div>
     <div class="col-sm-4">
-        <h4>Course Representative</h4>
+        <h4><u>Course Representative</u></h4>
       <p>I became a course representative during my first year.</p>
       <a href="pics/CourseRepsLogo.jpg" data-fancybox="images"> 
       <img class="img-size thumbnail" src="pics/CourseRepsLogo.jpg" alt="Course Rep"></a>     
     </div>
     <div class="col-sm-4">
-      <h4>Radical Youth Society</h4>
+      <h4><u>Radical Youth Society</u></h4>
+      <p>I am proud to say that I am part of the Radical Youth Leicester, which is a vibrant Christian society founding student body. 
+      It is a wonderful society and welcomes students from backgrounds.       
+      </p>
       <a href="pics/ry2.jpg" data-fancybox="images"> 
       <img class="img-size thumbnail" src="pics/ry2.jpg" alt="Radical Youth Society"></a>
     </div>

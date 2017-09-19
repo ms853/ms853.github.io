@@ -13,6 +13,11 @@
       background-color: #ffffff; /* White */
       color: #555555;
   }
+
+.bg-4 {
+    background-color: #2f2f2f;
+    color: #ffffff;
+}  
  
 .container-fluid {
     padding-top: 70px;
@@ -48,11 +53,7 @@
    color: white;
 }
 
-/*Css for the footer*/
-.bg-4 {
-    background-color: #2f2f2f;
-    color: #ffffff;
-}
+
 /*css for the font for the body!*/
 body {
 	 font-family: sans-serif;
@@ -60,6 +61,7 @@ body {
     line-height: 1.8;
     color: #f5f6f7;
 }
+
 
 .img-size{
 	height: 300px;
