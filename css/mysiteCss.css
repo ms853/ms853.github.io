@@ -62,10 +62,18 @@ body {
     color: #f5f6f7;
 }
 
+h3{
+	text-align: center;
+}
+
+.logo-size{
+	height: 90px;
+	width: 100px;
+}
 
 .img-size{
-	height: 300px;
-	width: 350px;
+	height: 200px;
+	width: 250px;
 }
 h5{
 font-family: 'Audiowide';
