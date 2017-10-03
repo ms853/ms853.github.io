@@ -56,6 +56,7 @@
         <li><a href="#aboutme">ABOUT ME</a></li>
         <li><a href="#beliefs">MY BELIEFS</a></li>
         <li><a href="#interests">MY INTERESTS</a></li>
+        <li><a href="#projects">MY PROJECTS</a></li>
         <li><a href="#skills">MY SKILLS</a></li>
         <li><a href="#contact">CONTACT ME</a></li>
       </ul>
@@ -78,7 +79,11 @@
   Furthermore, I was intrigued by nature of the course being a social science, meaning that it applies scientific studies to organisational behaviour and the underlying factors that contribute to its success or demise.
   In simple terms, I saw this degree as an opportunity to study two different sciences - one that deals with closed systems and one that deals with open systems.
   </p>
-  <p>Link to my LinkedIn profile - <a href="https://uk.linkedin.com/in/michael-s-lehmann-a02738b1"><img class="logo-size" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_color-512.png" alt="linkedIn"></a></p>
+  <div class="row">
+  <div class="col-sm-2">
+  <a href="https://uk.linkedin.com/in/michael-s-lehmann-a02738b1"><img class="logo-size" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_color-512.png" alt="linkedIn"></a>
+  </div>  
+  </div>
 </div>
 
 <!--My Beliefs-->
@@ -149,6 +154,65 @@
     </div>
 </div>
 </div>
+
+<!-- My Projects-->
+<div class="container-fluid bg-4">
+<div class="page-header">
+  <h3 id="projects">My Projects</h3>
+  </div>
+
+<div class="row">
+<div class="col-sm-4">
+<div class="cards card-bg">
+<div class="card-block">
+<h4 class="card-title">Staff Review System</h4>
+<h6 class="card-subtitle mb-2 text-muted">Organised by Sytner Group LTD</h6>
+<p class="card-text">This a mini-project which I had to complete as part of the application process for a junior developer placement role.
+This project is a Web Application which allows staff to review, update information about students who are enrolled on courses.
+This project exposed me to ASP.NET MVC, C#, the use of Microsoft Entity Framework and SQL Server.
+</p>
+<a href="https://github.com/ms853/staff-review/" class="btn btn-primary">View Repository</a>
+</div>
+</div>
+</div>
+
+<div class="col-sm-4">
+<div class="cards card-bg">
+<div class="card-block">
+<h4 class="card-title">Software Engineering Group Project</h4>
+<h6 class="card-subtitle mb-2 text-muted">Organised by FDM Group and University of Leicester</h6>
+<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+<a href="#" class="btn btn-primary">View Repository</a>
+</div>
+</div>
+</div>
+
+<div class="col-sm-4">
+<div class="cards card-bg">
+<div class="card-block">
+<h4 class="card-title">Staff Review System</h4>
+<h6 class="card-subtitle mb-2 text-muted">Organised by Sytner Group LTD</h6>
+<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+<a href="#" class="btn btn-primary">View Repository</a>
+</div>
+</div>
+</div>
+
+<div class="col-sm-4">
+<div class="cards card-bg">
+<div class="card-block">
+<h4 class="card-title">Staff Review System</h4>
+<h6 class="card-subtitle mb-2 text-muted">Organised by Sytner Group LTD</h6>
+<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+<a href="#" class="btn btn-primary">View Repository</a>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
 
 <!-- My Skills -->
 <div class="container-fluid bg-3">

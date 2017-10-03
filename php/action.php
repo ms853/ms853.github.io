@@ -15,7 +15,6 @@ $subject = 'New Message';
 
 if(mail($to, $subject, $message, "From: " . $name)){
 	echo "<h1>Thank you for your message! Message has been sent!</h1>";
-
 }else {
 	echo "<h1>Error occurred while sending the message.</h1>";
 }	
