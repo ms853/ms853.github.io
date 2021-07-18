@@ -26,14 +26,14 @@
 
 /*CSS for my background Image*/
 .bgimg {
-    background-image: url('../pics/tokyo.jpg');
+    background-image: url('../pics/Mountains.jpg');
     min-width: 100%;
     background-position: center;
     background-size: cover;
 }
 
 .titletxt{
-	font: 12px "Mate SC", sans-serif;
+	font: 12px "Helvetica Neue", sans-serif;
 	color: #ffffff;
 }
 
@@ -73,7 +73,7 @@ h3{
 }
 /*Css styling for the cards*/
 .card-bg{
-	background-color: #404040;
+	background-color: #e6e0e0;
 	border-radius: 10px;
 }
 
@@ -83,6 +83,6 @@ h3{
 }
 
 h5{
-font-family: 'Audiowide';
-font-size: 22px;
+    font-family: 'Audiowide';
+    font-size: 22px;
 }
